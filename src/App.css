@@ -44,10 +44,6 @@ header {
     gap: 40px;
 }
 
-.main-content > h1 {
-    /* margin: 45px auto; */
-}
-
 .main-content > img {
     width: 200px;
     outline: 2px solid var(--line-color);
@@ -76,4 +72,27 @@ header {
     color: var(--secondary-color);
     text-decoration: underline #4f5d2f;
     text-underline-offset: 0.3rem;
+}
+
+@media screen and (max-width:925px) {
+    .main-content{
+        flex-direction: column;
+        width: 75%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .solid-line {
+        width: 80%;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.7rem;
+    }
+
+    .nav-list > li {
+        padding: 0 0.5rem;
+    }
 }
