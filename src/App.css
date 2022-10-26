@@ -34,6 +34,7 @@ header {
     border: 1px solid var(--line-color);
     box-shadow: 5px 5px var(--line-color);
     cursor: pointer;
+    color: var(--line-color);
 }
 
 .main-content {
