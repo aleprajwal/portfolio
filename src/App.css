@@ -14,8 +14,8 @@ body {
 }
 
 .dark-mode {
-    background-color: #0b0a0a;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
 }
 
 h1, p {
@@ -33,6 +33,7 @@ header {
     padding: 10px;
     border: 1px solid var(--line-color);
     box-shadow: 5px 5px var(--line-color);
+    cursor: pointer;
 }
 
 .main-content {

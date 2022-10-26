@@ -7,14 +7,24 @@ function App() {
     let element = document.body;
     element.classList.toggle("dark-mode");
 
+    let label = document.getElementById("ld-mode");
+    if (label.innerHTML === "Light Mode"){
+      label.innerHTML = "Dark Mode";
+    } else {
+      label.innerHTML = "Light Mode";
+    }
+
+    let img = document.getElementsById("img");
+    img.classList.toggle("dark-img");
+
   }
   return (
     <div>
       <header>
-        <button className="btn" onClick={changeMode}>Dark Mode</button>
+        <button id="ld-mode" className="btn" onClick={changeMode}>Dark Mode</button>
       </header>
         <section className="main-content">
-          <img src={prajwal} alt="Prajwal Ale" />
+          <img id='img' src={prajwal} alt="Prajwal Ale" />
           <h1>Hi, I'm Prajwal.</h1>
           <article>
           <p>
