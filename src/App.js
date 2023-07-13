@@ -1,6 +1,6 @@
 import prajwal from "./assets/prajwal.jpg";
 import "./App.css";
-import resume from "./assets/Resume-Prajwal.pdf";
+import resume from "./assets/Prajwal.pdf";
 
 function App() {
   const changeMode = () =>{
